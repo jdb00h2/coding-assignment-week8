@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: azure;
+}
+
+div {
+    background-color: rgb(245, 233, 233);
+    border: 3px;
+    border-style: dashed;
+    border-radius:15px;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+
+h1 {
+    color:coral;
+    font-family: fantasy;
+}
+
+h2, h3 {
+    font-family:fantasy;
+}
+
+img {
+    height:500px;
+}
+
+#heart{
+    height:350px;
+}
+
+table {
+    border: 3px;
+    border-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    width:35%
+}
+
+.info{
+    border-style: none;
+    border-bottom: none;
+    margin-right: auto;
+    margin-left: auto;
+    width:15%;
+    background-color:azure;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(232, 223, 223);
+}
+
+th{
+    border-bottom:4px solid black;
+}
+
+td {
+    text-align: left;
+    border-bottom:1px solid black;
+}
+
+ol {
+    display:inline-block;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+}
+
+li {
+    font-size: large;
+}
+
+p {
+    font-size: large;
+}
+
+a:hover {
+    zoom: 110%;
+}
+
+form {
+    font-family: cursive;
+    color: maroon;
+}
+
+#comments {
+    background-color: rgb(196, 188, 188);
+    border: 1px;
+    border-style:double;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
